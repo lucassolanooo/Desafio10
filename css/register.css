@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flexFVentana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexFLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logoMLForm {
+    width: 50%;
+    margin: 20px;
+}
+
+.flexForm {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+.flexFVentana div form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.buttonF {
+    margin-top: 20px;
+}

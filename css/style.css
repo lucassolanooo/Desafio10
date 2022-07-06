@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: #fbbc02;
+    padding: 10px;
+}
+
+main .col-12 {
+    padding: 0px;
+}
+
+.linkHeader {
+    text-decoration: none;
+    color: black;
+}
+
+.flexTitulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+@media screen and (min-width: 640px) {
+    .headerXS {
+        display: none;
+    }
+
+    .logoML {
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .flexBarra {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .barraDeBusqueda {
+        margin-top: 5px;
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        height: 70%;
+        width: 100%;
+    }
+    
+    .flexOpiniones {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .txtHeaderOp {
+        margin-left: 8px;
+    }
+    
+    .flexPrHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .txtHeaderPr {
+        margin-top: 15px;
+    }
+    
+    .flexUsuario {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .txtHeaderR, .txtHeaderIS {
+        margin-right: 8px;
+    }
+
+    
+    .lineaFooterXS {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .headerMD {
+        display: none;
+    }
+
+    .logoMLXS {
+        width: 80%;
+    }
+
+    .flexPr {
+        margin: 5px;
+    }
+}
+.txtHeaderOp:hover {
+    text-decoration: underline;
+}
+
+.txtHeaderPr:hover {
+    text-decoration: underline;
+}
+
+.txtHeaderR:hover {
+    text-decoration: underline;
+}
+
+.txtHeaderIS:hover {
+    text-decoration: underline;
+}
+.flexFVentana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbbc02;
+    width: 70%;
+    margin: 10px auto 10px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.flexFLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logoMLForm {
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.flexForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexFVentana div form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.buttonF {
+    margin-top: 20px;
+}
+.banner {
+    height: 100%;
+    width: 100%;
+}
+
+.flexPrTotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexPr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderPr {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.imgPr {
+    height: 100%;
+    width: 100%;
+}
+
+.flexDesPr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divPrDes {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgPrDestacado {
+    height: 100%;
+    width: 100%;
+}
+
+.txtImgPr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flexFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bxl-facebook-square {
+    color: #3b5998;
+}
+
+.bxl-instagram-alt {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.bxl-linkedin-square {
+    color: #0e76a8;
+}
+
+.bxl-youtube {
+    color: red;
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: black;
+}
+
+.lineaVerticalIzq {
+    border-left: 1px solid black;
+    height: 100%;
+    left: 50%;
+}
+
+.lineaVerticalDer {
+    border-right: 1px solid black;
+    height: 100%;
+    right: 50%;
+}

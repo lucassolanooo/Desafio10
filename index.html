@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>DESAFIO 9 LUCAS SOLANO</title>
+</head>
+<body>
+
+    <div class="modal fade" id="registrarse">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registrarse"><i class='bx bx-x-circle'></i></button>
+                </div>
+                <div class="modal-main">
+                    <div class="flexFVentana">
+                        <div class="flexFLogo">
+                            <img class="logoMLForm" src="img/mercado-liebre.png" alt="Logo Mercado Liebre">
+                        </div>
+                        <div>
+                            <h1>Registro</h1>
+                        </div>
+                        <div>
+                            <form class="flexForm">
+                                <div>
+                                    <label for="nombre">Nombre: </label>
+                                    <input type="text" name="nombre">
+                                </div>
+                                <div>
+                                    <label for="email">Email: </label>
+                                    <input type="email" name="email">
+                                </div>
+                                <div>
+                                    <label for="password">Contraseña: </label>
+                                    <input type="password" name="password">
+                                </div>
+                                <div class="buttonF">
+                                    <button class="btn btn-success" type="button">Registrarse</button>
+                                    <button class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#registrarse">Cancelar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="container-fluid">
+        <div class="row headerXS">
+            <div class="col-6">
+                <a href="#"><img class="logoMLXS" src="img/mercado-liebre.png" alt="Logo Mercado Liebre"></a>
+            </div>
+            <div class="col-6">
+            </div>
+        </div>
+
+        <div class="row headerMD">
+            <div class="col-4">
+                <a href="#"><img class="logoML" src="img/mercado-liebre.png" alt="Logo Mercado Liebre"></a>
+            </div>
+            <div class="col-4 flexBarra">
+                <input class="barraDeBusqueda" type="search">
+            </div>
+            <div class="col-4 flexOpiniones">
+                <i class='bx bx-store-alt'></i>
+                <a class="txtHeaderOp linkHeader" href="#">Todas las opiniones en un solo lugar</a>
+            </div>
+        </div>
+        <div class="row headerMD">
+            <div class="col-2 flexPrHeader">
+                <a class="txtHeaderPr linkHeader" href="#">Todos los productos</a>
+            </div>
+            <div class="col-6">
+            </div>
+            <div class="col-4 flexUsuario">
+                <div>
+                    <button class="btn btn-link txtHeaderR linkHeader" data-bs-toggle="modal" data-bs-target="#registrarse">Crea tu cuenta</button>
+                    <i class='bx bx-id-card'></i>
+                </div>
+                <div>
+                    <a  class="txtHeaderIS linkHeader" href="#">Ingresa</a>
+                    <i class='bx bx-log-in'></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="banner d-block" src="/img/banner1.jpg" alt="Banner Principal">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="banner d-block" src="/img/banner2.jpg" alt="Banner">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 flexTitulo">
+                <h1>Disfruta nuestras ofertas</h1>
+            </div>
+        </div>
+        <div class="row flexPrTotal">
+            <div class="col-xl-3 col-md-2 col-xs-1">
+                <div class="flexPr borderPr">
+                    <div>
+                        <img class="imgPr" src="img/productos/img-cafetera-moulinex.jpg" alt="Cafetera">
+                    </div>
+                    <div class="flexDesPr">
+                        <p>Cafetera Moulinex</p>
+                        <button class="btn btn-primary" type="button">Comprar</button>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-xl-3 col-md-2 col-xs-1">
+                <div class="flexPr borderPr">
+                    <div>
+                        <img class="imgPr" src="img/productos/img-macbook-pro-2019.jpg" alt="Macbook">
+                    </div>
+                    <div class="flexDesPr">
+                        <p>Macbook Pro 2019</p>
+                        <button class="btn btn-primary" type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-2 col-xs-1">
+                <div class="flexPr borderPr">
+                    <div>
+                        <img class="imgPr" src="img/productos/img-tv-samsung-smart.jpg" alt="TV Samsung">
+                    </div>
+                    <div class="flexDesPr">
+                        <p>TV LG 40 Pulgadas</p>
+                        <button class="btn btn-primary" type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-2 col-xs-1">
+                <div class="flexPr borderPr">
+                    <div>
+                        <img class="imgPr" src="img/productos/img-samsung-galaxy-s10.jpg" alt="Celular Samsung">
+                    </div>
+                    <div class="flexDesPr">
+                        <p>Samsung Galaxy</p>
+                        <button class="btn btn-primary" type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <br>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 flexTitulo">
+                <h1>Productos destacados</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-xs-0">
+                <!-- Espacio Izquierda -->
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="flexPr borderPr">
+                    <div class="divPrDes">
+                        <img class="imgPrDestacado" src="img/productos/img-samsung-galaxy-s10.jpg" alt="Celular Samsung">
+                        <p class="txtImgPr"><strong>Samsung Galaxy</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="flexPr borderPr">
+                    <div class="divPrDes">
+                        <img class="imgPrDestacado" src="img/productos/img-tv-samsung-smart.jpg" alt="TV Samsung">
+                        <p class="txtImgPr"><strong>Smart 40" Samsung</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xs-0">
+                <!-- Espacio Derecha -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <br>
+                <hr>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-xs-12 flexFooter">
+                <div>
+                    <h5>Seguinos</h5>
+                </div>
+                <div>
+                    <i class='bx bxl-facebook-square'></i>
+                    <a class="linkFooter" href="#">Facebook</a>
+                </div>
+                <div>
+                    <i class='bx bxl-instagram-alt'></i>
+                    <a class="linkFooter" href="#">Instagram</a>
+                </div>
+                <div>
+                    <i class='bx bxl-linkedin-square'></i>
+                    <a class="linkFooter" href="#">LinkedIn</a>
+                </div>
+                <div>
+                    <i class='bx bxl-youtube'></i>
+                    <a class="linkFooter" href="#">YouTube</a>
+                </div>
+            </div>
+            <div class="col-md-1 col-xs-0">
+                <div class="lineaVerticalIzq"></div>
+            </div>
+            <div class="lineaFooterXS col-xs-12">
+                <br>
+                <hr>
+            </div>
+            <div class="col-md-4 col-xs-12 flexFooter">
+                <div>
+                    <h5>Otros Servicios</h5>
+                </div>
+                <div>
+                    <a class="linkFooter" href="#">MercadoLiebre Pago</a>
+                </div>
+                <div>
+                    <a class="linkFooter" href="#">MercadoLiebre Shops</a>
+                </div>
+                <div>
+                    <a class="linkFooter" href="#">Liebre Envios</a>
+                </div>
+            </div>
+            <div class="col-md-1 col-xs-0">
+                <div class="lineaVerticalDer"></div>
+            </div>
+            <div class="lineaFooterXS col-xs-12">
+                <br>
+                <hr>
+            </div>
+            <div class="col-md-3 col-xs-12 flexFooter">
+                <div>
+                    <h5>Trabaja con nosotros</h5>
+                </div>
+                <div>
+                    <input type="email" placeholder="Ingresa tu email">
+                    <button class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <br>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
